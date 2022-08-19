@@ -1,0 +1,25 @@
+.player-list {
+  max-width: 15%;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  overflow-y: scroll;
+  max-height: 600px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

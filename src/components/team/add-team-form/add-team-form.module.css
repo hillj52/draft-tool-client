@@ -1,0 +1,9 @@
+.form {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-control {
+  float: left;
+}

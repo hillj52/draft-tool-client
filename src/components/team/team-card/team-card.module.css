@@ -1,0 +1,22 @@
+.team-card {
+  width: 14%;
+  font-size: smaller;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.header {
+  font-weight: bold;
+}
+
+.money {
+  color: red;
+}
+
+.border {
+  border: 1px solid rgb(105, 13, 148);
+}

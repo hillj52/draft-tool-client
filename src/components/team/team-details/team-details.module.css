@@ -1,0 +1,22 @@
+.table table {
+  border-collapse: collapse;
+}
+
+.table td,
+.table tr,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:hover {
+  background-color: rgb(241, 236, 236);
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: purple;
+  color: white;
+}

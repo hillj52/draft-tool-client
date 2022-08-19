@@ -1,0 +1,53 @@
+.player {
+  max-width: 90%;
+  font-size: x-small;
+}
+
+.player:hover {
+  transform: scale(1.1);
+}
+
+.QB {
+  background-color: #09f;
+}
+
+.WR {
+  background-color: #ff0;
+}
+
+.RB {
+  background-color: #ff4000;
+}
+
+.TE {
+  background-color: #40ff00;
+}
+
+.K {
+  background-color: #f6f;
+}
+
+.DST {
+  background-color: #f90;
+}
+
+.name {
+  display: inline-block;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.team {
+  display: inline-block;
+  margin-left: 5px;
+  font-style: italic;
+}
+
+.position {
+  float: right;
+}
+
+.price {
+  font-size: small;
+  font-weight: bold;
+}

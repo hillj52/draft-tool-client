@@ -1,0 +1,28 @@
+.header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.team {
+  font-style: italic;
+  float: right;
+}
+
+.left {
+  display: inline-block;
+  max-width: 49%;
+}
+
+.right {
+  display: inline;
+  max-width: 49%;
+  float: right;
+}
+
+.available {
+  color: rgb(9, 201, 19);
+}
+
+.drafted {
+  color: rgb(223, 4, 15);
+}
