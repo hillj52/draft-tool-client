@@ -5,7 +5,7 @@ export const AuthAPI = {
         `${process.env.REACT_APP_API_URL}/auth/signin`,
         {
           method: 'post',
-          body: JSON.stringify({ email, password }),
+          body: JSON.stringify({ username: email, password }),
           headers: {
             'Content-Type': 'application/json',
           },
@@ -17,6 +17,7 @@ export const AuthAPI = {
       const data = await response.json();
       return data.access_token as string;
     } catch (error) {
+      console.log('error', error);
       throw new Error('Generic Server Error');
     }
   },

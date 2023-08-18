@@ -129,19 +129,6 @@ const PlayerDetails: React.FC<PlayerDetailsProps> = ({ player }) => {
                 {player.drafted ? 'Cost' : 'Max Bid'}:{' '}
                 {(player.value * inflation).toFixed(2)}
               </div>
-              <div className={classes.tier}>Tier: {player.tier}</div>
-              <div>Games Above Projection: {player.gamesAboveProjection}</div>
-              <div>Points Above Projection: {player.pointsAboveProjection}</div>
-            </div>
-            <div className={classes.right}>
-              <div>Overall Rank: {player.overallRank}</div>
-              <div>
-                Positional Rank: {player.position}
-                {player.positionalRank}
-              </div>
-              <div className={classes.sos}>
-                Strength of Schedule: {player.strengthOfSchedule}
-              </div>
             </div>
           </section>
           <hr />
